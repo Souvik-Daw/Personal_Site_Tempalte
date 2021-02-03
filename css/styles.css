@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    text-align: center;
+    color: #40514E;
+}
+h1{
+    margin: 30px auto 0 auto;
+    font-family: cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #66BFBF;
+    font-weight: normal;
+    padding: 10px;
+}
+h3{  
+    font-family: Arial, Helvetica, sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    margin: 20px 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: whitesmoke;
+}
+
+p{
+    line-height: 2;
+}
+hr{
+    border:dotted #EAF6F6 6px ;
+    width: 30%; 
+    border-bottom: none;
+    margin: 100px auto;
+}
+.top-container{
+    background-color:#E4F9F5;
+    position: relative;
+    padding-top: 105px;
+}
+.middle-container{
+    margin: 60px 0;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 330px;
+}
+.computer{
+    border-radius: 100%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.chillies{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.profile_pic{
+    width: 19%;
+    border-radius: 100%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .footer-text{
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 10px;
+  }
